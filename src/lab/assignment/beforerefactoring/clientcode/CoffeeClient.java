@@ -2,8 +2,8 @@ package lab.assignment.beforerefactoring.clientcode;
 
 import lab.assignment.beforerefactoring.CappuccinoCoffee;
 import lab.assignment.beforerefactoring.MochaCoffee;
-import lab.assignment.beforerefactoring.CoffeeTemplate;
 import lab.assignment.beforerefactoring.AmericanoCoffee;
+import lab.assignment.beforerefactoring.CoffeeTemplate;
 
 public class CoffeeClient {
 
