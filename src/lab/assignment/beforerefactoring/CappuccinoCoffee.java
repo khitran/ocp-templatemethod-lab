@@ -11,3 +11,4 @@ public class CappuccinoCoffee extends CoffeeTemplate {
     protected void finalTouches() {
     	System.out.println("Top with milk foam");
     }
+}

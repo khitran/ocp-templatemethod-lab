@@ -7,7 +7,7 @@ public abstract class CoffeeTemplate {
         boilWater();
         brewEspresso();
         addIngredients();
-        finalTouch();
+        finalTouches();
         System.out.println(">>Coffee is served.");
     }
 
@@ -22,6 +22,6 @@ public abstract class CoffeeTemplate {
 
     //methods to be implemented by subclasses
     protected abstract void addIngredients();
-    protected abstract void finalTouch();
+    protected abstract void finalTouches();
 
 }

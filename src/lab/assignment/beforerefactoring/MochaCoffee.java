@@ -11,3 +11,4 @@ public class MochaCoffee extends CoffeeTemplate {
     protected void finalTouches() {
         System.out.println("Adding sugar");
     }
+}
