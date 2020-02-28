@@ -1,18 +1,25 @@
 package lab.assignment.beforerefactoring.clientcode;
 
-import lab.assignment.beforerefactoring.CoffeeMaker;
+import lab.assignment.beforerefactoring.CappuccinoCoffee;
+import lab.assignment.beforerefactoring.MochaCoffee;
+import lab.assignment.beforerefactoring.CoffeeTemplate;
+import lab.assignment.beforerefactoring.AmericanoCoffee;
 
 public class CoffeeClient {
 
-
     public static void main(String[] args) {
-        CoffeeMaker starbuzz = new CoffeeMaker();
-        starbuzz.prepareMochaCoffee();
+        CoffeeTemplate coffeeType = new CappuccinoCoffee();
 
-        System.out.println("********************");
+        //using template method
+        coffeeType.prepareCoffee();
+        System.out.println("************");
 
-        starbuzz.prepareCapuccinoCoffee();
+        coffeeType = new MochaCoffee();
+        coffeeType.prepareCoffee();
 
+        System.out.println("************");
+
+        coffeeType = new AmericanoCoffee();
+        coffeeType.prepareCoffee();
     }
-
 }
